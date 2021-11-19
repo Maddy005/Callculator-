@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./5137894.jpg);
+    background-position: center;
+   background-size: cover;
+   
+}
+.container{
+
+position: absolute;
+background-color: rgb(136, 136, 136);
+width: 23%;
+height: 70vh;
+left: 130px;
+top: 80px;
+border-radius: 19px;
+}
+.result{
+    
+    width: 100%;
+    height: 120px;
+}
+span{
+    position: relative;
+    top: 86%;
+    left: 89%;
+    pointer-events: none;
+}
+.calculator{
+    cursor: pointer;
+    position: relative;
+  
+    border-radius: 5px;
+    top:9px; 
+    left: 9px;   
+    width: 40%;
+    height: 5vh;
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    border: none;
+    padding: 20px;
+}
+input{
+    outline: none;
+    grid-column: span 4;
+    height: 50px;
+    border-radius: 5px;
+    width: 260px;
+    margin: auto;
+    text-align: end;
+    padding: 10px;
+    font-size: 22px;
+    border: none;
+    color: #adb5bd;
+   background-color: transparent;
+    box-shadow:  5px 5px 9px #000000   ,
+     5px 5px 9px #000000;
+}
+button{
+    cursor: pointer;
+    height: 49px;
+    width: 49px;
+    margin-top: 20px;
+    padding: 16px;
+    margin-left: 10px;
+    border: none;
+    background-color: #495057;
+    border-radius: 20px;
+    box-shadow:  5px 5px 10px #000000,
+     5px 5px 10px #000000;
+     font-family: 'roboto';
+     font-size: 16px;
+     color: #adb5bd;
+     text-size-adjust: -10px;
+    
+position: relative;
+}
+.equal{
+    width: 110px;
+}
+#m,#n,#o,#p{
+background-color: #343a40;
+}

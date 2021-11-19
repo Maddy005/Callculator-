@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="Stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="c">
+            <button onclick="cle()">CL</button>
+            <button onclick="del()">Del</button>
+            <button onclick="Display('%')">%</button>
+           
+
+            <button onclick="Display('/')" id="m">/</button>
+            <button onclick="Display('7')">7</button>
+            <button onclick="Display('8')">8</button>
+            <button onclick="Display('9')">9</button>
+            <button onclick="Display('*')" id="n">*</button>
+            <button onclick="Display('6')">6</button>
+            <button onclick="Display('5')">5</button>
+            <button onclick="Display('4')">4</button>
+            <button onclick="Display('-')"id="o">-</button>
+            <button onclick="Display('3')">3</button>
+            <button onclick="Display('2')">2</button>
+            <button onclick="Display('1')">1</button>
+            <button onclick="Display('+')"id="p">+</button>
+            <button onclick="Display('.')">.</button>
+            <button onclick="Display('0')">0</button>
+           
+            <button class="equal" onclick="total()">=</button>
+
+
+
+
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
